@@ -1,6 +1,6 @@
 html {
     font-family: var(--font-main);
-    color: var(--color-bg-text);
+    color: var(--color-bg-titles);
     font-size: var(--fs-sm);
     font-weight: var(--weight-regular);
     -webkit-text-size-adjust: 100%;
