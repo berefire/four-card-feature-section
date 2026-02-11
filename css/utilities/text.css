@@ -1,0 +1,7 @@
+.text-center {
+    text-align: center;
+}
+
+.space-letter-hairline {
+    letter-spacing: var(--space-hairline);
+}

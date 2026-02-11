@@ -1,0 +1,67 @@
+.box-xl {
+    margin-block: var(--space-xl);
+}
+
+.box-lg {
+    max-width: var(--card-max-s);
+    padding: var(--space-lg);
+    box-shadow: var(--shadow-blue-soft);
+    border-radius: var(--radius-s);
+}
+
+.box-s {
+    max-width: var(--card-max-s);
+}
+
+.box-m {
+    display: grid;
+    place-items: center;
+    gap: var(--space-lg);
+}
+
+
+@media (min-width: 40rem){
+    .box-xl {
+        margin-block: var(--space-3xl);
+    }
+
+    .box-s {
+        max-width: var(--card-max-l);
+    }
+
+    .box-m {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            ". team team ."
+            "sup sup karma karma"
+            ". calc calc ."
+    }
+
+    .card--team {
+        grid-area: team;
+    }
+    .card--supervisor {
+        grid-area: sup;
+    }
+    .card--karma {
+        grid-area: karma;
+    }
+
+    .card--calculator {
+        grid-area: calc;
+    }
+}
+
+@media (min-width: 64rem){
+    .box-m {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            ".   team   ."
+            "sup team calc"
+            "sup karma calc"
+            ". karma ."
+    }
+}

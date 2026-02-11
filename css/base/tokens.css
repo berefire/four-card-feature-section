@@ -1,0 +1,85 @@
+:root {
+    /* Colors */
+    --color-white: hsl(0, 0%, 100%);
+    --color-bg-supervisor: hsl(180, 62%, 55%);
+    --color-bg-team-builder: hsl(0, 78%, 62%);
+    --color-bg-karma: hsl(34, 97%, 64%);
+    --color-bg-calculator: hsl(212, 86%, 64%);
+    --color-bg-titles: hsl(234, 12%, 34%);
+
+    --color-bg-text: hsl(212, 6%, 44%);
+    --color-link: hsl(228, 45%, 44%);
+
+    /* Radius */
+    --radius-s: 0.53rem;             /* 8px */
+
+    /* Hairline / detalles */
+    --space-hairline: 0.006rem;  /* ≈ 0.09px  → 0.09 ÷ 15 */
+    --space-thin: 0.0167rem;     /* ≈ 0.25px  → 0.25 ÷ 15 */
+
+    /* Micro spacing */
+    --space-3xs: 0.25rem;        /* 4px  → 8 ÷ 15 */
+    --space-2xs: 0.53rem;        /* 8px  → 8 ÷ 15 */
+    --space-xs: 0.4rem;          /* 6px  → 8 ÷ 15 */
+    --space-sm: 1.07rem;         /* 16px → 16 ÷ 15 */
+
+    /* Core spacing */
+    --space-lg: 2.13rem;         /* 32px → 32 ÷ 15 */
+
+     /* Large spacing */
+    --space-xl: 4rem;           /* 60px → 60 ÷ 15 */
+    --space-2xl: 4.25rem;        /* 64px → 64 ÷ 15 */
+    --space-3xl: 4.93rem;       /* 74px → 74 ÷ 15 */
+
+    /* Font families */
+    --font-main: "Poppins", sans-serif;
+
+    /* Font weights */
+    --weight-extralight: 200;
+    --weight-regular: 400;
+    --weight-semibold: 600;
+
+    /* Font sizes fixed */
+    /* Font sizes (base: 15px) */
+    --fs-xs: 0.87rem;   /* 13px → 13 ÷ 15 */
+    --fs-sm: 0.9375rem;      /* 15px → base */
+    --fs-md: 1.33rem;   /* 20px → 20 ÷ 15 */
+
+    --fs-lg: 1.6rem;    /* 24px → 24 ÷ 15 */
+    --fs-xl: 2.4rem;    /* 36px → 36 ÷ 15 */
+
+    /* Additional font sizes */
+    --fs-3xs: 0.7rem;    /* 11px */
+
+    /* Text fluid */
+    --text-fluid-xs: clamp(var(--fs-3xs), 1vw, var(--fs-xs));  /* 11px - 13px */
+    --text-fluid-lg: clamp(var(--fs-lg), 1.35rem + 0.75vw, var(--fs-xl)); /* 24px - 36px */
+
+    /* Line heights */
+    --lh-subtitles: 1.35;
+    --lh-titles: 1.4;
+    --lh-text: 1.6;
+
+     /* Decoration thicknesss */
+    --thickness-s: 0.08rem;
+    --thickness-m: 0.12rem;
+
+    /* Undeline-offset */
+    --offset-m: 0.15rem;
+    --offset-s: 0.125rem;    /* 2px */
+
+    /* Box-shadow */
+     --shadow-blue-soft: 0 1rem 2rem -0.73rem rgba(131, 166, 210, 0.5);
+
+    /* Card widths */
+    --card-max-s: 20.93rem;      /* 314px */
+    --card-max-l: 36rem;         /* 540px */
+
+    /* Break points */
+    --bp-sm: 40rem;    /* 600px */
+    --bp-md: 68.3rem; /* 1024px */
+    --bp-lg: 85.3rem; /* 1280px */
+    --bp-xl: 96rem;   /* 1440px */
+}
+
+ 

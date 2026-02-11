@@ -1,0 +1,34 @@
+.card{
+    border-block-start: var(--space-3xs) solid transparent;
+}
+
+
+.card--supervisor {
+    border-color: var(--color-bg-supervisor);
+}
+
+.card--team {
+    border-color: var(--color-bg-team-builder);
+}
+
+.card--karma {
+    border-color: var(--color-bg-karma);
+}
+
+.card--calculator {
+    border-block-start: var(--space-3xs) solid var(--color-bg-calculator);
+}
+
+.card__text > h2 {
+    font-weight: var(--weight-semibold);
+    line-height: var(--lh-subtitles);
+    font-size: var(--fs-md);
+}
+
+.card__text > p {
+    font-size: var(--fs-xs);
+}
+
+.card img {
+    margin-left: auto;
+}

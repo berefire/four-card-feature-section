@@ -1,0 +1,16 @@
+html {
+    font-family: var(--font-main);
+    color: var(--color-bg-text);
+    font-size: var(--fs-sm);
+    font-weight: var(--weight-regular);
+    -webkit-text-size-adjust: 100%;
+}
+
+html,
+body {
+    min-block-size: 100%;
+}
+
+address {
+    display: inline;
+}

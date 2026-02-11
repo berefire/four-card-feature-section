@@ -1,0 +1,11 @@
+.title-extralight {
+    font-weight: var(--weight-extralight);
+    font-size: var(--text-fluid-lg);
+    letter-spacing: var(--space-thin);
+    line-height: var(--lh-titles);
+}
+
+.title-semibold {
+    display: block;
+    font-weight: var(--weight-semibold);
+}
