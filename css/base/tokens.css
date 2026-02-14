@@ -25,11 +25,17 @@
 
     /* Core spacing */
     --space-lg: 2.13rem;         /* 32px → 32 ÷ 15 */
+    --space-lg-plus: 3.73rem;    /* 56px → 56 ÷ 15 */
 
      /* Large spacing */
     --space-xl: 4rem;           /* 60px → 60 ÷ 15 */
+    --space-xl-tight: 4.07rem;  /* 61px → 61 ÷ 15 */
     --space-2xl: 4.25rem;        /* 64px → 64 ÷ 15 */
     --space-3xl: 4.93rem;       /* 74px → 74 ÷ 15 */
+    --space-3xl-tight: 5.33rem; /* 80px → 80 ÷ 15 */
+    --space-4xl: 6.33rem;       /* 95px → 95 ÷ 15 */
+    --space-4xl-plus: 6.8rem;   /* 102px → 102 ÷ 15 */
+    --space-6xl: 10.87rem;      /* 163px → 163 ÷ 15 */
 
     /* Font families */
     --font-main: "Poppins", sans-serif;
@@ -73,13 +79,12 @@
 
     /* Card widths */
     --card-max-s: 20.93rem;      /* 314px */
+    --card-max-m: 23.33rem;      /* 350px */
     --card-max-l: 36rem;         /* 540px */
 
-    /* Break points */
-    --bp-sm: 40rem;    /* 600px */
-    --bp-md: 68.3rem; /* 1024px */
-    --bp-lg: 85.3rem; /* 1280px */
-    --bp-xl: 96rem;   /* 1440px */
+    /* Break points always 16px as base */
+    --bp-md: 48rem;  /* 768px */
+    --bp-lg: 64rem;  /* 1024px */
 }
 
  

@@ -1,6 +1,6 @@
 .attribution {
     font-size: var(--text-fluid-xs);
     line-height: var(--lh-titles);
-    color: var(--color-link);
+    color: var(--color-bg-titles);
     text-align: center;
 }
