@@ -3,11 +3,7 @@
     gap: var(--space-lg);
 }
 
-.cards-grid > * {
-    height: 100%;
-}
-
-@media (min-width: 48rem) {
+@media (min-width: 48em) {
     .cards-grid {
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: 
@@ -23,7 +19,7 @@
     .cards-grid > :nth-child(4) { grid-area: d }
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 64em) {
     .cards-grid {
         grid-template-rows: repeat(4, 1fr);
         grid-template-columns: repeat(3, 1fr);

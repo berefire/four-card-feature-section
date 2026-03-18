@@ -14,7 +14,7 @@
 }
 
 
-@media (min-width: 48rem){
+@media (min-width: 48em){
     .box-xl {
         margin-block: var(--space-3xl-tight) var(--space-4xl);
     }
@@ -24,7 +24,7 @@
     }
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 64em) {
     .box-xl {
         margin-block: var(--space-4xl-plus) var(--space-6xl);
     }

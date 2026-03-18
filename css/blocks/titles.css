@@ -10,7 +10,7 @@
     font-weight: var(--weight-semibold);
 }
 
-@media (min-width: 48rem){
+@media (min-width: 48em){
     .title-extralight {
         font-size: var(--fs-xl);
     }
